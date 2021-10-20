@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingdee.sqkg.mapper.TBdDatabasedassignMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kingdee.sqkg.domain.entity.TBdDatabasedassign">
+        <id column="FID" property="fid" />
+        <result column="FCREATORID" property="fcreatorid" />
+        <result column="FCREATETIME" property="fcreatetime" />
+        <result column="FLASTUPDATEUSERID" property="flastupdateuserid" />
+        <result column="FLASTUPDATETIME" property="flastupdatetime" />
+        <result column="FCONTROLUNITID" property="fcontrolunitid" />
+        <result column="FDATABASEDID" property="fdatabasedid" />
+        <result column="FASSIGNCUID" property="fassigncuid" />
+        <result column="FBOSOBJECTTYPE" property="fbosobjecttype" />
+        <result column="FSTATUS" property="fstatus" />
+    </resultMap>
+
+</mapper>

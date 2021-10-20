@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingdee.sqkg.mapper.TBdCustomercompanybankMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kingdee.sqkg.domain.entity.TBdCustomercompanybank">
+        <id column="FID" property="fid" />
+        <result column="FBANK" property="fbank" />
+        <result column="FBANKACCOUNT" property="fbankaccount" />
+        <result column="FBANKADDRESS" property="fbankaddress" />
+        <result column="FCUSTOMERCOMPANYINFOID" property="fcustomercompanyinfoid" />
+        <result column="FSEQ" property="fseq" />
+        <result column="FACCOUNTNAME" property="faccountname" />
+        <result column="FCURRENCY" property="fcurrency" />
+        <result column="FOPENAREA" property="fopenarea" />
+        <result column="FISDEFAULT" property="fisdefault" />
+        <result column="FBANKENGNAME" property="fbankengname" />
+        <result column="FBENEFICIARY" property="fbeneficiary" />
+        <result column="FBENEFICIARYENGNAME" property="fbeneficiaryengname" />
+        <result column="FBENEFICIARYBANKCOUNTRYID" property="fbeneficiarybankcountryid" />
+        <result column="FBENEFICIARYBANKCOUNTRYISO" property="fbeneficiarybankcountryiso" />
+        <result column="FBENEFICIARYBANKCODE" property="fbeneficiarybankcode" />
+        <result column="FBENEFICIARYADDR" property="fbeneficiaryaddr" />
+        <result column="FBENEFICIARYBANKSWIFT" property="fbeneficiarybankswift" />
+        <result column="FSETTLEMENTPARAM" property="fsettlementparam" />
+        <result column="FAGENCYBANKACCOUNT" property="fagencybankaccount" />
+        <result column="FAGENCYBANKNAME" property="fagencybankname" />
+        <result column="FAGENCYBANKCOUNTRYID" property="fagencybankcountryid" />
+        <result column="FAGENCYBANKCOUNTRYISO" property="fagencybankcountryiso" />
+        <result column="FAGENCYBANKSWIFT" property="fagencybankswift" />
+        <result column="FAGENCYBANKADDR" property="fagencybankaddr" />
+        <result column="FBANKID" property="fbankid" />
+    </resultMap>
+
+</mapper>
